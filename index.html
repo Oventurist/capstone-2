@@ -8,7 +8,8 @@
         integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Lato&family=Pacifico&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&family=Lato&family=Pacifico&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="./style.css">
 </head>
 
@@ -23,8 +24,8 @@
                     <div class="col-2"></div>
                     <div class="col-8">
                         <div class="centering-wrapper">
-                            <h1 class="pacifico-regular">Hi, I'm Nick</h1>
-                            <p class="lato-regular">I'm on the programming journey.</p>
+                            <h1 class="pacifico-regular display-2 mb-2">Hi, I'm Nick</h1>
+                            <p class="lato-regular mb-5">I'm on the programming journey.</p>
                         </div>
                     </div>
                     <div class="col-2"></div>
@@ -39,12 +40,73 @@
             </div>
         </section>
 
-        <section id="projects">
-            
+        <section id="about-me">
+            <div class="mb-5">
+                <div class="p-5 text-center">
+                    <div class="container pb-2">
+                        <img src="./assets/images/profile-pic.png" alt="round profile picture of Nick" class="profile-img mt-5 mb-2" />
+                        <p class="col-lg-8 mx-auto lead lato-regular">Nick Stanford</p>
+                        <h2 class="text-body-emphasis lato-regular">With a solid foundation in mechanical engineering, finance, and home renovation, I'm now exploring the exciting world of
+                        web design. I'm passionate about embarking on new adventures and constantly expanding my knowledge.</h2>
+                        <a href="https://oventurist.github.io/html-resume/">
+                        <button type="button" class="btn btn-outline-dark mt-4 lato-regular">My Resume</button>
+                        </a>
+                    </div>
+                </div>
+            </div>
         </section>
 
-        <section id="about-me">
+        <section id="projects">
+            <div class="container px-4 py-5" id="custom-cards">
+                <h2 class="pt-5 mb-4 display-4 lh-1 fw-bold text-white lato-regular">My Projects</h2>
+                <div class="row row-cols-1 row-cols-lg-3 align-items-stretch g-4 py-5">
+                    <div class="col">
+                        <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg"
+                            style="background-image: url('./assets/images/tindog.png'); background-size: cover;">
+                            <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
+                                <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold lato-regular">Tindog</h3>
+                                
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg"
+                            style="background-image: url('./assets/images/move-it.png'); background-size: cover;">
+                            <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
+                                <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold lato-regular">Move It
+                                </h3>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg"
+                            style="background-image: url('./assets/images/mondrian.png'); background-size: cover;">
+                            <div class="d-flex flex-column h-100 p-5 pb-3 text-shadow-1 text-black">
+                                <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold lato-regular">Mondrian Project</h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </section>
+
+        <section id="contact">
+
+            <div class="container my-5">
+                <div class="position-relative pt-5 text-center">
+                    </svg>
+                    <h1 class="text-body-white lato-regular">Want to chat?</h1>
+                    <p class="col-lg-6 mx-auto mb-4 lato-regular">
+                        Whether you're looking to collaborate on an exciting project or need a hand planning your next grand adventure, I'd love
+                        to hear from you!
+                    </p> <button class="btn btn-outline-dark px-5 mb-5" type="button">
+                        Email Me
+                    </button>
+                </div>
+            </div>
+
+        </section>
+
     </main>
 </body>
 </html>

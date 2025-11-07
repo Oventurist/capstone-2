@@ -10,6 +10,13 @@
     font-style: normal;
 }
 
+.cinzel-regular {
+    font-family: "Cinzel", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
 body {
     margin: 0;
 }
@@ -21,11 +28,10 @@ main {
 
 #hero h1 {
     color: rgb(67, 86, 99);
-    font-size: 2.2rem;
     margin: 0
 }
 
-#hero p {
+p h2{
     color: rgb(49, 54, 71);
     font-size: 0.8rem;
     margin: 0;
@@ -37,14 +43,25 @@ main {
    height: 80vh;
 }
 
-#projects {
-    background-image: url("./assets/images/topo.png");
+#about-me {
+    background-image: url("./assets/images/topo-green.png");
+   
 }
 
+#projects {
+    background-image: url("./assets/images/topo-beige.png");
+}
 
-#about-me {
-    background-color: #FFF8D4;
-   
+#contact {
+    background-image: url("./assets/images/topo.png");
+    color: rgb(49, 54, 71);
+}
+
+#about-me img {
+    border-radius: 50%;
+    border: 5px solid rgb(197, 21, 21);
+    height: 100px;
+    width: 100px;
 }
 
 .centering-wrapper {
